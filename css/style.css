@@ -327,14 +327,12 @@ img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
-  height: 300px;
-  width: 300px;
+  
 }
 .work__img img{
   transition: 1s;
   cursor: pointer;
-  height: 300px;
-  width: 300px;
+  
 }
 .work__img img:hover{
   transform: scale(1.1);
@@ -469,99 +467,34 @@ img{
   }
 }
 
-@media screen and (max-width:900px){
-  .home__img{
-    width: 400px;
-    right: 5%;
-  }
-}
-
-@media screen and (max-width:880px){
-  .home__img{
-    width: 380px;
-   
-  }
-}
-
-@media screen and (max-width:850px){
-  .home__img{
-    width: 330px;
-    
-  }
-  .home__title{
-    font-size: 3rem;
-  }
-}
-
-@media screen and (max-width:670px){
-  .home__img{
-    width: 300px;
-    
-    
-  }
-  .home__title{
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (max-width:540px){
-  .home__img img {
+@media screen and (max-width: 400px){
+  .home__img img{
     width: 300px;
     height: 300px;
     
   }
-  .home__img {
+  .home__img{
+    right: 5%;
     bottom: 10%;
   }
-}
-
-@media screen and (max-width:460px){
-  .home__img img {
-    width: 250px;
-    height: 250px;
-    
   }
-  .home__img{
-    left: 35%;
-  }
-  
-  .bd-grid{
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (max-width:450px){
-  .bd-grid{
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (max-width:450px){
-  .bx-menu:before{
-    padding-right: 10px;
-  }
-}
-   
-@media screen and (max-width:430px){
-  .bx-menu:before{
-    padding-right: 10px;
-  }
-  .bd-grid{
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
- 
-@media screen and (max-width:400px){
-  .bx-menu:before{
-    padding-right: 45px;
-  }
-  .bd-grid{
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
- 
        
+  @media screen and (max-width: 365px){
+    .home__img img{
+      width: 250px;
+      height: 250px;
+      
+    }
+    .home__img{
+     left: 20%;
+      bottom: 15%;
+    }
+    
+    }
+
+    @media screen and (max-width: 350px){
+      section{
+       padding: 0px 5px;
+      }
+        
+      }
