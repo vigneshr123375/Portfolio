@@ -478,23 +478,36 @@ img{
     bottom: 10%;
   }
   }
-       
-  @media screen and (max-width: 365px){
+
+  @media screen and (max-width: 380px){
     .home__img img{
       width: 250px;
       height: 250px;
+      
+    }
+  }
+       
+  @media screen and (max-width: 365px){
+    .home__img img{
+      width: 230px;
+      height: 230px;
       
     }
     .home__img{
      left: 20%;
       bottom: 15%;
     }
+    section{
+      padding:0;
+      margin: 0;
+     }
+    
     
     }
 
     @media screen and (max-width: 350px){
       section{
-       padding: 0px 5px;
+       padding:5px;
       }
         
       }
