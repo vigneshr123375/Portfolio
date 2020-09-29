@@ -489,25 +489,17 @@ img{
        
   @media screen and (max-width: 365px){
     .home__img img{
-      width: 230px;
-      height: 230px;
+      width: 200px;
+      height: 200px;
       
     }
     .home__img{
      left: 20%;
       bottom: 15%;
     }
-    section{
-      padding:0;
-      margin: 0;
-     }
+    
     
     
     }
 
-    @media screen and (max-width: 350px){
-      section{
-       padding:5px;
-      }
-        
-      }
+    
